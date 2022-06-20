@@ -1,0 +1,12 @@
+1. SELECT * FROM CUSTOMERS;
+2. SELECT distinct country_region FROM CUSTOMERS;
+3. SELECT * FROM CUSTOMERS
+WHere id=’BL’;
+4. SELECT * FROM ORDERS limit 100;
+5. SELECT * FROM customers WHERE zip_postal_code = "1010, 3012, 12209, 05023";
+6. SELECT * FROM ORDERS
+WHERE NOT ship_country_region = 'null';
+7. SELECT * FROM CUSTOMERS ORDER BY country_region, city;
+8. UPDATE CUSTOMERS SET first_name = 'Jill Scott', city = 'Grand Rapids' WHERE ID='2';
+9. update orders set Ship_country_REGION = 'EuroZone' where Ship_Country_Region = 'France';
+10. SELECT * FROM `order details` ; delete from `order details` where Quantity = 1;
